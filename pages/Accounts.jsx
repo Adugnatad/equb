@@ -49,8 +49,10 @@ const styles = {
         justifyContent: 'center',
         padding: 10,
         paddingVertical: 20,
+        borderWidth: 4,
+        borderColor: '#fff',
         borderRadius: 20,
-        shadowColor: "#000",
+        shadowColor: "#fff",
         elevation: 8,
     },
     accountsList: {

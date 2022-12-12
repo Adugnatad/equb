@@ -14,12 +14,12 @@ export const Footer = ({ children }) => {
             {children}
             <View style={styles.footerContainer}>
                 <Text className="text-center w-[70%]">
-                    By creating an account, you agree to our Terms of Service and Privacy Policy
+                    By creating an account, you agree to our <Text className="text-[#F29E68] underline">Terms of Service </Text> and <Text className="text-[#F29E68] underline">  Privacy Policy</Text>
                 </Text>
                 <View className="border-[1px] border-[white] w-full mb-[-35px] mt-[20px]">
 
                 </View>
-                <View className="w-[200px] items-center mb-[-15px]">
+                <View className="w-[200px] items-center mb-[-20px] mt-[10px] bg-white scale-[0.7] rounded-[20px]">
                     <Image source={equbLogo} className="scale-50 h-[70px] " />
                 </View>
             </View>
